@@ -1,0 +1,129 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.main-menu nav ul li .mega-menu {
+	    left: -80px;
+	}
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.main-menu nav ul li ul.submenu {
+	    left: -40px;
+	}
+	.main-menu nav ul li .mega-menu {
+	    width: 500px;
+	    left: -100px;
+	}
+	.single-feature p {
+    	display: none;
+	}
+	.feature-content {
+	    padding: 35px 16px;
+	}
+	.blog-active .owl-nav div, .active-testimonial .owl-nav div {
+	    left: 204px;
+	}
+	.blog-active .owl-nav .owl-next, .active-testimonial .owl-nav .owl-next {
+	    right: 190px;
+	}
+	.single-brand img.first-brand {
+    	margin-top: 0;
+	}
+	
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.main-menu nav ul li ul.submenu {
+    	left: -150px;
+	}
+	.main-menu nav ul li .mega-menu {
+	    left: -250px;
+	}
+	.single-services {
+		padding-top: 0;
+	}
+	.section-title h2 {
+    	margin-bottom: 70px;
+	}
+	.video-bg img {
+	    height: 371px;
+	}
+	.blog-active .owl-nav .owl-next, .active-testimonial .owl-nav .owl-next {
+	    right: 402px;
+	}
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.main-menu {
+    	display: none;
+	}
+	.header-search {
+	    top: -81px;
+	    left: -43px;
+	}
+	.main-header {
+	    padding-top: 22px;
+	}
+	.single-slider h1 {
+	    font-size: 55px;
+	    margin: 20px 0 30px;
+	}
+	.single-slider h4 {
+    	font-size: 25px;
+	}
+	.single-slider a.btn, .btn {
+	    padding: 10px 30px;
+	}
+	.owl-nav {
+    	display: none;
+	}
+	.hire-btn a {
+	    display: block;
+	    text-align: center;
+	}
+	.blog-thum {
+	  	float: none;
+	    margin-bottom: 30px;
+	}
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.main-menu {
+    	display: none;
+	}
+	.header-search {
+	    top: -81px;
+	    right: -18px;
+	}
+	.main-header {
+  		padding-top: 15px;
+	}
+	.header-search::before {
+	    display: none;
+	}
+	.single-slider h1 {
+	    font-size: 55px;
+	    margin: 20px 0 30px;
+	}
+	.single-slider h4 {
+    	font-size: 25px;
+	}
+	.single-slider a.btn, .btn {
+	    padding: 10px 30px;
+	}
+	.hire-btn a {
+	    display: block;
+	    text-align: center;
+	}
+	.blog-active .owl-nav .owl-next, .active-testimonial .owl-nav .owl-next {
+	    right: 224px;
+	}
+}
